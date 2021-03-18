@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/shelbyandersen/aurelia-customer-management-app/issues"
   },
-  "homepage": "https://github.com/shelbyandersen/aurelia-customer-management-app#readme"
+  "homepage": "https://github.com/shelbyandersen/aurelia-customer-management-app#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
 }

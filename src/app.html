@@ -1,0 +1,26 @@
+<template>
+  <div class="container">
+    <h1>${heading}</h1>
+    <form submit.trigger="addCustomer()">
+      <input
+        type="text"
+        value.bind="customerName"
+        placeholder="Name"
+        class="u-full-width"
+      />
+      <input
+        type="email"
+        value.bind="customerEmail"
+        placeholder="Email"
+        class="u-full-width"
+      />
+      <input
+        type="text"
+        value.bind="customerPhone"
+        placeholder="Phone Number"
+        class="u-full-width"
+      />
+      <button type="submit" class="u-full-width">Add Customer</button>
+    </form>
+  </div>
+</template>
